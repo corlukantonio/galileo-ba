@@ -1,0 +1,88 @@
+﻿.c_ctr {
+    padding: 0 18px;
+}
+
+.c_row {
+    margin: 36px 0;
+
+    border-left: 2px solid #F7941E; /* rgb(247, 148, 30) */
+
+    background-color: #FFF; /* rgb(255, 255, 255) */
+
+    box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+}
+
+.c_row_inner {
+    padding: 0 36px;
+}
+
+.c_row_text {
+    display: table-cell;
+
+    width: 50%;
+
+    vertical-align: middle;
+}
+
+.c_row_ttl {
+    display: inline-block;
+
+    padding: 22px 0;
+
+    color: #F7941E; /* rgb(247, 148, 30) */
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    letter-spacing: .2px;
+    word-spacing: .4px;
+}
+
+.c_row_download {
+    display: table-cell;
+
+    width: 50%;
+
+    text-align: right;
+    
+    vertical-align: middle;
+}
+
+.c_row_download_btn {
+    display: inline-block;
+
+    margin: 26px 0;
+}
+
+.c_row_download_btn > a {
+    display: inline-block;
+
+    padding: 10px 18px;
+
+    border: 2px solid #F7941E; /* rgb(247, 148, 30) */
+
+    color: #F7941E; /* rgb(247, 148, 30) */
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: .2px;
+    word-spacing: .4px;
+
+    /* Ease-in */
+    -webkit-transition: color .2s cubic-bezier(.4, 0, .65, .18), background-color .2s cubic-bezier(.4, 0, .65, .18);
+       -moz-transition: color .2s cubic-bezier(.4, 0, .65, .18), background-color .2s cubic-bezier(.4, 0, .65, .18);
+         -o-transition: color .2s cubic-bezier(.4, 0, .65, .18), background-color .2s cubic-bezier(.4, 0, .65, .18);
+            transition: color .2s cubic-bezier(.4, 0, .65, .18), background-color .2s cubic-bezier(.4, 0, .65, .18);
+}
+
+.c_row_download_btn > a:hover {
+    background-color: #F7941E; /* rgb(247, 148, 30) */
+
+    color: #FFF; /* rgb(255, 255, 255) */
+
+    /* Ease-out */
+    -webkit-transition: color .2s cubic-bezier(.35, .82, .4, 1), background-color .2s cubic-bezier(.35, .82, .4, 1);
+       -moz-transition: color .2s cubic-bezier(.35, .82, .4, 1), background-color .2s cubic-bezier(.35, .82, .4, 1);
+         -o-transition: color .2s cubic-bezier(.35, .82, .4, 1), background-color .2s cubic-bezier(.35, .82, .4, 1);
+            transition: color .2s cubic-bezier(.35, .82, .4, 1), background-color .2s cubic-bezier(.35, .82, .4, 1);
+}

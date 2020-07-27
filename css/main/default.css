@@ -1,0 +1,48 @@
+﻿body {
+    margin: 0;
+    width: 100%;
+
+    background: #F2F2F2; /* rgb(242, 242, 242) */
+
+    font-family: "Open Sans", sans-serif;
+}
+
+/*****************************************************/
+/*                                                   */
+/*    Common things for page elements. IMPORTANT!    */
+/*                                                   */
+/*****************************************************/
+
+/* Default style of containers of header, slider, content and footer. */
+.h_ctr,
+.s_ctr,
+.google_maps_ctr,
+.c_ctr,
+.f_ctr {
+    position: relative;
+    margin: 0 auto;
+
+    max-width: 1164px;
+
+    overflow: hidden;
+}
+
+/* Default style of links. */
+a,
+a:link {
+    display: block;
+
+    color: #FFF; /* rgb(255, 255, 255) */
+
+    text-decoration: none;
+
+    cursor: default;
+}
+
+/* Default style of unordered lists. */
+ul {
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+}

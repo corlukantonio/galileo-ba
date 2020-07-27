@@ -1,0 +1,23 @@
+﻿.f_ctr {
+    padding: 0 18px;
+}
+
+.f_txt {
+    padding: 18px 0 44px 0;
+
+    text-align: center;
+}
+
+.copyright,
+.created_by {
+    display: inline-block;
+
+    padding: 2px 0;
+
+    color: #6E6E6E; /* rgb(110, 110, 110) */
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: .2px;
+    word-spacing: .4px;
+}
